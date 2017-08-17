@@ -7,22 +7,22 @@ Var
  C:integer;
  R:real;
 begin
-clrscr();
+ clrscr();
  B:=0;
  C:=-1;
+
  repeat
-
- write('Inserte numero:');
- readln(A);
-
- B:=B+A;
- C:=C+1;
+  write('Inserte numero:');
+  readln(A);
+  B:=B+A;
+  C:=C+1;
  Until A<=0;
+
  A:=round(B/C);
  Writeln(A);
  readln();
 
-  End.
+End.
 End.
 
 
